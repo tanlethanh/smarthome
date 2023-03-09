@@ -1,10 +1,11 @@
 import { View, Text } from "react-native";
+import CardContainer from "./CardContainer";
 
 function AirConditioner() {
     return (
-        <View className="h-60 w-96 flex flex-col bg-slate-700 text-white">
-            <Text>Air conditionner</Text>
-        </View>
+        <CardContainer>
+            <Text className=''>Air conditionner</Text>
+        </CardContainer>
     );
 }
 

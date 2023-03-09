@@ -1,10 +1,12 @@
 import { View, Text } from "react-native";
+import CardContainer from "./CardContainer";
 
 function Fan() {
     return (
-        <View className="h-60 w-96 flex flex-col bg-slate-700 text-white">
+        <CardContainer>
             <Text>Fan</Text>
-        </View>
+            <Text>Inside layout</Text>
+        </CardContainer>
     );
 }
 

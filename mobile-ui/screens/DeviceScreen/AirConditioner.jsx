@@ -3,7 +3,7 @@ import { AirConditioner } from "../../components";
 
 function AirConditionerScreen() {
     return (
-        <DeviceLayout>
+        <DeviceLayout deviceName={"Air conditioner"}>
             <AirConditioner></AirConditioner>
         </DeviceLayout>
     );
